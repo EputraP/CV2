@@ -1,0 +1,65 @@
+.red-relative{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+    /* top: 50px; */
+}
+.blue-relative{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    display: inline-block;
+   
+}
+.yellow-relative{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+    display: inline-block;
+   
+}
+body{
+    margin: 0;
+}
+.red-absolute{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+.blue-absolute{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+.yellow-absolute{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 300px;
+}
+.red-absolute-container{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.container-absolute{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    position: absolute;
+    top: 700px;
+}

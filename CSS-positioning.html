@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pos.css">
+</head>
+<body>
+    <!-- static position means position using html by default, not use css -->
+    
+    <!-- relative position means positioned relative to its normal position
+         setting top, right, bottom, and left properties of relatively - positioned
+         element will cause it to be adjusted away from its normal position.
+         other content will not be adjusted to fit into any gap left by the element -->
+    
+    <!-- absolute position means positioned relative to the nearest positioned ancestore  
+         (instead of positioned relative to the viewport, like fixed).
+         if an absolute positioned element has no positioned ancestors, it uses
+         the document body, and moves along with page scrolling -->
+    <div class="red-relative">
+
+    </div>
+    <div class="blue-relative">
+
+    </div>
+    <div class="yellow-relative">
+    
+    <!--Absolute to body, body as a parent-->
+    </div>
+    <br>
+    <br>
+    <div class="red-absolute">
+        
+    </div>
+    <div class="blue-absolute">
+
+    </div>
+    <div class="yellow-absolute">
+
+    </div>
+    <!-- try absolute to new div, div as a parent -->
+    <div class="container-absolute">
+        <div class="red-absolute-container">
+        
+        </div>
+    </div>
+</body>
+</html>
